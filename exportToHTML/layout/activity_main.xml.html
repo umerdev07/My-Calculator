@@ -1,0 +1,375 @@
+<html>
+<head>
+<title>activity_main.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #d5b778;}
+.s1 { color: #bcbec4;}
+.s2 { color: #6aab73;}
+.s3 { color: #bcbec4;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+activity_main.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s2">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s2">=&quot;utf-8&quot;</span><span class="s0">?&gt;</span>
+<span class="s0">&lt;androidx.constraintlayout.widget.ConstraintLayout </span><span class="s1">xmlns:android</span><span class="s2">=&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="s1">xmlns:app</span><span class="s2">=&quot;http://schemas.android.com/apk/res-auto&quot;</span>
+    <span class="s1">xmlns:tools</span><span class="s2">=&quot;http://schemas.android.com/tools&quot;</span>
+    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:background</span><span class="s2">=&quot;#000000&quot;</span>
+    <span class="s1">tools:context</span><span class="s2">=&quot;.MainActivity&quot;</span><span class="s0">&gt;</span>
+
+
+    <span class="s0">&lt;TextView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/result&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;382dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;218dp&quot;</span>
+        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;36dp&quot;</span>
+        <span class="s1">android:gravity</span><span class="s2">=&quot;right&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;0&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/white&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;40sp&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText,RtlHardcoded,SpUsage&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btnrightbrac&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;336dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">android:layout_marginRight</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;@drawable/round_btn&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot; )&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#80FF00&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;30sp&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toStartOf</span><span class="s2">=&quot;@+id/btnmod&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btnmod&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;336dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s2">=&quot;20dp&quot;</span>
+        <span class="s1">android:layout_marginRight</span><span class="s2">=&quot;20dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;@drawable/round_btn&quot;</span>
+
+        <span class="s1">android:text</span><span class="s2">=&quot;%&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#80FF00&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;30sp&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toStartOf</span><span class="s2">=&quot;@+id/btndiv&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btnleftbrac&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;336dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s2">=&quot;24dp&quot;</span>
+        <span class="s1">android:layout_marginRight</span><span class="s2">=&quot;24dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;@drawable/round_btn&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;(&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#80FF00&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;30sp&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toStartOf</span><span class="s2">=&quot;@+id/btnrightbrac&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText,TextContrastCheck&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btndiv&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;8dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">android:layout_marginRight</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;@drawable/round_btn&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;/&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#80FF00&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;30sp&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/btnc&quot;</span>
+        <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btn2&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;32dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">android:layout_marginRight</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;@drawable/round_btn&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;8&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/white&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;30sp&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toStartOf</span><span class="s2">=&quot;@+id/btn3&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/btnrightbrac&quot;</span>
+        <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btn6&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;@drawable/round_btn&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;6&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/white&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;30sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toTopOf</span><span class="s2">=&quot;@+id/btn9&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toStartOf</span><span class="s2">=&quot;@+id/btnminus&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.5&quot;</span>
+        <span class="s1">app:layout_constraintStart_toEndOf</span><span class="s2">=&quot;@+id/btn5&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/btn3&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.5&quot;</span>
+        <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btn3&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;28dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s2">=&quot;20dp&quot;</span>
+        <span class="s1">android:layout_marginRight</span><span class="s2">=&quot;20dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;@drawable/round_btn&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;9&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/white&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;30sp&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toStartOf</span><span class="s2">=&quot;@+id/btnmul&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/btnmod&quot;</span>
+        <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btn4&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;@drawable/round_btn&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;4&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/white&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;30sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toTopOf</span><span class="s2">=&quot;@+id/btn7&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toStartOf</span><span class="s2">=&quot;@+id/btn5&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.5&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/btn1&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.5&quot;</span>
+        <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btndot&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;@drawable/round_btn&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;.&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/white&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;30sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toStartOf</span><span class="s2">=&quot;@+id/btnequal&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.5&quot;</span>
+        <span class="s1">app:layout_constraintStart_toEndOf</span><span class="s2">=&quot;@+id/btn0&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/btn9&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.5&quot;</span>
+        <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btnminus&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;@drawable/round_btn&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;-&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#80FF00&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;30sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toTopOf</span><span class="s2">=&quot;@+id/btnplus&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.5&quot;</span>
+        <span class="s1">app:layout_constraintStart_toEndOf</span><span class="s2">=&quot;@+id/btn6&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/btnmul&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.5&quot;</span>
+        <span class="s1">tools:ignore</span><span class="s2">=&quot;DuplicateSpeakableTextCheck,HardcodedText&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btnac&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;@drawable/redc&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;AC&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/white&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;30sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toStartOf</span><span class="s2">=&quot;@+id/btn0&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.5&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/btn7&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.5&quot;</span>
+        <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btn8&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;@drawable/round_btn&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;2&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/white&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;30sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toTopOf</span><span class="s2">=&quot;@+id/btn0&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toStartOf</span><span class="s2">=&quot;@+id/btn9&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.5&quot;</span>
+        <span class="s1">app:layout_constraintStart_toEndOf</span><span class="s2">=&quot;@+id/btn7&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/btn5&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.5&quot;</span>
+        <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btnequal&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;@drawable/round_btn&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;=&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#80FF00&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;30sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.5&quot;</span>
+        <span class="s1">app:layout_constraintStart_toEndOf</span><span class="s2">=&quot;@+id/btndot&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/btnplus&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.5&quot;</span>
+        <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btn9&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;@drawable/round_btn&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;3&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/white&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;30sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toTopOf</span><span class="s2">=&quot;@+id/btndot&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toStartOf</span><span class="s2">=&quot;@+id/btnplus&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.5&quot;</span>
+        <span class="s1">app:layout_constraintStart_toEndOf</span><span class="s2">=&quot;@+id/btn8&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/btn6&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.5&quot;</span>
+        <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btn0&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;@drawable/round_btn&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;0&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/white&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;30sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toStartOf</span><span class="s2">=&quot;@+id/btndot&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.5&quot;</span>
+        <span class="s1">app:layout_constraintStart_toEndOf</span><span class="s2">=&quot;@+id/btnac&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/btn8&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.5&quot;</span>
+        <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText,DuplicateSpeakableTextCheck&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btn7&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;@drawable/round_btn&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;1&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/white&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;30sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toTopOf</span><span class="s2">=&quot;@+id/btnac&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toStartOf</span><span class="s2">=&quot;@+id/btn8&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.5&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/btn4&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.5&quot;</span>
+        <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btn5&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;@drawable/round_btn&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;5&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/white&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;30sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toTopOf</span><span class="s2">=&quot;@+id/btn8&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toStartOf</span><span class="s2">=&quot;@+id/btn6&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.5&quot;</span>
+        <span class="s1">app:layout_constraintStart_toEndOf</span><span class="s2">=&quot;@+id/btn4&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/btn2&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.5&quot;</span>
+        <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btnmul&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;80dp&quot;</span>
+
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;28dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">android:layout_marginRight</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;@drawable/round_btn&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;*&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#80FF00&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;30sp&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/btndiv&quot;</span>
+        <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btnplus&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;@drawable/round_btn&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;+&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#80FF00&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;30sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toTopOf</span><span class="s2">=&quot;@+id/btnequal&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.5&quot;</span>
+        <span class="s1">app:layout_constraintStart_toEndOf</span><span class="s2">=&quot;@+id/btn9&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/btnminus&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.5&quot;</span>
+        <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btn1&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;28dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;@drawable/round_btn&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;7&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/white&quot;</span>
+
+        <span class="s1">android:textSize</span><span class="s2">=&quot;30sp&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toStartOf</span><span class="s2">=&quot;@+id/btn2&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.333&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/btnleftbrac&quot;</span>
+        <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/btnc&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;53dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;44dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;48dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;@drawable/c_button&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;c&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/green&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;20sp&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.949&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/result&quot;</span>
+        <span class="s1">tools:ignore</span><span class="s2">=&quot;DuplicateSpeakableTextCheck,HardcodedText,TextSizeCheck,TouchTargetSizeCheck&quot; </span><span class="s0">/&gt;</span>
+
+<span class="s0">&lt;/androidx.constraintlayout.widget.ConstraintLayout&gt;</span></pre>
+</body>
+</html>
